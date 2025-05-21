@@ -1,0 +1,4 @@
+### install all below:
+torch
+safetensors
+tabulate
