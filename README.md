@@ -1,17 +1,17 @@
 # Model-inspector
 
-> Tool for analyse models Pytorch and 'safetensors' - it gets out hyperparameters, layers structure, parameter numbers and then it generate raports.
+> Simple tool for analyse models with '.safetensors' - it gets out hyperparameters, layers structure, parameter numbers and then it generate raports.
 
 ---
 
 ## Functions
 
-- load models saved as a '.pt', '.ckpt', '.safetensors'
+- load models saved as a'.safetensors'
 - analyse model structure (layers, parameters, type)
 - load config file 
 - parameter numbers, model size, data type(float32, float16, ...)
-- generate raports in terminal, html or PDF.
-- visualization architecture (experimental)
+- generate raports in terminal, report.md.
+- visualization architecture (experimental) # ToDo
 
 ---
 
@@ -39,12 +39,12 @@ python main.py --model ./models/model.safetensors --config ./models/config.json
 
 
 ### Roadmap
- - Load .pt and .safetensors
- - Basics statisctics for models
+ - Load .safetensors
+ - Basics statistics for models
  - load and report config.json
- - export for PDF
- - visualize model tree with (networkx or graphviz)
- - integration with Gradio (for web version) 
+ - export to pdf / html #TODO
+ - visualize model tree with (networkx or graphviz) #TODO
+ - integration with Gradio (for web version) #TODO
 
 
  ### Techstack
@@ -57,4 +57,4 @@ python main.py --model ./models/model.safetensors --config ./models/config.json
 
 
  ### License
- MIT 2025 - created by Malum0x
+MIT © 2025 – created by Malum0x
